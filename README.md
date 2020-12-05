@@ -1,4 +1,4 @@
-# Workout Tracker :hamburger:
+# Workout Tracker :muscle:
 
 [![GitHub issues](https://img.shields.io/github/issues/TheyCallMeMattyD/workout-trackerstyle=for-the-badge)](https://github.com/TheyCallMeMattyD/workout-tracker/issues) &nbsp;
 [![GitHub stars](https://img.shields.io/github/stars/TheyCallMeMattyD/workout-tracker?style=for-the-badge)](https://github.com/TheyCallMeMattyD/workout-tracker/stargazers) &nbsp;
