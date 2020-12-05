@@ -29,8 +29,6 @@
 ## Usage
 >Once you have installed the required dependencies, run the app using the following code in your terminal: `node server.js`.  
 >OR... if you'd just like to use the app on the Heroku website host, you can access it here:  
->  
->![Screen Shot 2020-11-15 at 9 18 31 PM](https://user-images.githubusercontent.com/66084799/99206001-41542080-2788-11eb-820b-b4e93d0da996.png)
 
 ## Technologies
 >This application was created with:  
