@@ -5,8 +5,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/theycallmemattyd/workout-tracker?style=for-the-badge)
   
 ## Description
->A burger logging system with MySQL, Node, Express, Handlebars and a homemade ORM. Record which burgers you want to eat, then eat them and move them over to the completed column.  Application is deployed on Heroku at the following website address:  
->https://nameless-taiga-27305.herokuapp.com/  
+>A workout tracker that enables the user to view, create and track daily workouts. User is also able to track the name, type, weight, sets, reps, and duration of exercises - as well as track distance traveled while doing cardio.  Application is deployed on Heroku at the following website address:  
+>PLACEHOLDER  
 
 >
   
@@ -35,10 +35,8 @@
 
 ## Technologies
 >This application was created with:  
-> Node.js  
-> Express 
-> Handlebars  
-> ORM  
+> Node.js   
+> Mongo AtlasDB  
 > Heroku hosting  
   
 ## License
