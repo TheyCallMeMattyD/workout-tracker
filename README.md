@@ -2,7 +2,13 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/TheyCallMeMattyD/workout-tracker?style=for-the-badge)](https://github.com/TheyCallMeMattyD/workout-tracker/issues) &nbsp;
 [![GitHub stars](https://img.shields.io/github/stars/TheyCallMeMattyD/workout-tracker?style=for-the-badge)](https://github.com/TheyCallMeMattyD/workout-tracker/stargazers) &nbsp;
-![GitHub last commit](https://img.shields.io/github/last-commit/theycallmemattyd/workout-tracker?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/theycallmemattyd/workout-tracker?style=for-the-badge)  
+
+![Languages](https://img.shields.io/github/languages/count/theycallmemattyd/fitness-tracker)
+![Top Language](https://img.shields.io/github/languages/top/theycallmemattyd/fitness-tracker)
+![Code Size](https://img.shields.io/github/languages/code-size/theycallmemattyd/fitness-tracker)
+![Repo Size](https://img.shields.io/github/repo-size/theycallmemattyd/fitness-tracker)
+![Total Lines](https://img.shields.io/tokei/lines/github/theycallmemattyd/fitness-tracker)
   
 ## Description
 >A workout tracker that enables the user to view, create and track daily workouts. User is also able to track the name, type, weight, sets, reps, and duration of exercises - as well as track distance traveled while doing cardio.  Application is deployed on Heroku at the following website address:  
