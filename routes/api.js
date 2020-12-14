@@ -1,44 +1,37 @@
-const API = {
-  async getLastWorkout() {
-    let res;
-    try {
-      res = await fetch("/api/workouts");
-    } catch (err) {
-      console.log(err)
-    }
-    const json = await res.json();
+const Workout = require("../models/workout");
 
-    return json[json.length - 1];
-  },
-  async addExercise(data) {
-    const id = location.search.split("=")[1];
-
-    const res = await fetch("/api/workouts/" + id, {
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data)
+module.exports = function(app) {
+    // Get all workouts
+    app.get("/api/workouts", function (req, res) {
+        Workout.find()
+        .then(function(data) {
+            console.log(data);
+            res.json(data);
+        });
     });
 
-    const json = await res.json();
+    // Add a new workout
+    app.post("/api/workouts", function (req, res) {
+        console.log(req.body);
 
-    return json;
-  },
-  async createWorkout(data = {}) {
-    const res = await fetch("/api/workouts", {
-      method: "POST",
-      body: JSON.stringify(data),
-      headers: { "Content-Type": "application/json" }
+        Workout.create({})
+        .then(function(data) {
+            res.json(data);
+        });
     });
 
-    const json = await res.json();
+    app.put("/api/workouts/:id", function (req, res) {
+        Workout.findByIdAndUpdate(req.params.id, {$push: {exercises: req.body}})
+        .then(function(data) {
+            res.json(data);
+        });
+    });
 
-    return json;
-  },
-
-  async getWorkoutsInRange() {
-    const res = await fetch(`/api/workouts/range`);
-    const json = await res.json();
-
-    return json;
-  },
-};
+    // Get workout in a specific range
+    app.get("/api/workouts/range", function (req, res) {
+        Workout.find()
+        .then(function(data) {
+            res.json(data)
+        });
+    });
+}
