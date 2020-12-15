@@ -11,10 +11,9 @@
   
 ## Description
 >A workout tracker that enables the user to view, create and track daily workouts. User is also able to track the name, type, weight, sets, reps, and duration of exercises - as well as track distance traveled while doing cardio.  Application is deployed on Heroku at the following website address:  
->PLACEHOLDER  
 
->
-  
+>![dashboard](https://user-images.githubusercontent.com/66084799/102262069-9480d680-3ee0-11eb-84ea-0d3887e478fa.jpg)
+
 ## Table of Contents
 >1. [Title](#Title)
 >2. [Description](#Description)
