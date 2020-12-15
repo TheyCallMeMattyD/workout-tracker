@@ -26,12 +26,12 @@
 >9. [Questions?](#Questions?)
   
 ## Installation
->Please install required dependencies using the following code: `npm install mysql`, `npm install express`, and `npm install express-handlebars`.  
+>Please install required dependencies using the following code: `npm install express`, and `npm install mongoose`.  
 >  
 >For localHost deployement, you must have an instance of mySQL running in either the terminal or mySQL workbench environments.
   
 ## Usage
->Once you have installed the required dependencies, run the app using the following code in your terminal: `node server.js`.  
+>Once you have installed the required dependencies, run the app using the following code in your terminal: `npm run start`.  
 >OR... if you'd just like to use the app on the Heroku website host, you can access it here:  
 
 ## Technologies
