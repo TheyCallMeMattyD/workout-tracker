@@ -27,12 +27,11 @@
   
 ## Installation
 >Please install required dependencies using the following code: `npm install express`, and `npm install mongoose`.  
->  
->For localHost deployement, you must have an instance of mySQL running in either the terminal or mySQL workbench environments.
   
 ## Usage
 >Once you have installed the required dependencies, run the app using the following code in your terminal: `npm run start`.  
 >OR... if you'd just like to use the app on the Heroku website host, you can access it here:  
+>https://workoutmatty.herokuapp.com/   
 
 ## Technologies
 >This application was created with:  
